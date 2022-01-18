@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans 3' ;
+
+}
+
+.main{
+    background-color:hsl(217, 54%, 11%);
+    height: 100vh;
+}
+
+.card{
+    background-color: hsl(216, 50%, 16%);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height: 70%;
+    width: 20%;
+    transform: translate(-50%, -50%);
+    border: 1px solid hsl(215, 32%, 27%);
+    border-radius: 15px;
+}
+
+.card__background{
+    color: hsl(215, 51%, 70%);
+    width: 80%;
+}
+
+.main__img{
+    position: fixed;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+#main__img{
+    height: 240px;
+    width: 240px;
+    border-radius: 15px;
+}
+
+
+.main__text h1{
+    font-size: 20px;
+    font-weight: 700;
+    position: fixed;
+    top: 58%;
+    left: 47.5%;
+    transform: translate(-50%, -50%);
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.main__text h2{
+    font-size: 15px;
+    font-weight: 300;
+    position: fixed;
+    top: 64%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: hsl(178, 100%, 50%);
+}
+
+.main__text h3{
+    font-size: 15px;
+    font-weight: 300;
+    position: fixed;
+    top: 67%;
+    left: 46%;
+    transform: translate(-50%, -50%);
+    color: hsl(178, 100%, 50%);
+}
+
+#eth__svg{
+    position: fixed;
+    top: 73%;
+    left: 42.5%;
+    transform: translate(-50%, -50%);
+    color: hsl(178, 100%, 50%); 
+}
+
+.main__text h4{
+    font-size: 15px;
+    font-weight: 300;
+    position: fixed;
+    top: 73%;
+    left: 45.5%;
+    transform: translate(-50%, -50%);
+    color: hsl(178, 100%, 50%);
+}
+
+#clock__svg{
+    position: fixed;
+    top: 73%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    color: hsl(178, 100%, 50%);
+}
+
+.main__text p{
+    font-size: 15px;
+    font-weight: 300;
+    position: fixed;
+    top: 73%;
+    left: 56%;
+    transform: translate(-50%, -50%);
+    color: hsl(178, 100%, 50%);
+}
+
+#profile__png{
+    
+    position: fixed;
+    top: 80%;
+    left: 42.5%;
+    transform: translate(-50%, -50%);
+}
+
+.main__text h5{
+    font-size: 15px;
+    font-weight: 300;
+    position: fixed;
+    top: 80%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+
+#profile__png{
+    height: 20px;
+}
+
+
+
